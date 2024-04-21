@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{genre_name}",
+ "creation": "2024-04-12 13:21:23.940178",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "genre_name",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "genre_name",
+   "fieldtype": "Data",
+   "label": "Genre Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-12 13:23:56.940615",
+ "modified_by": "Administrator",
+ "module": "Gamedb",
+ "name": "Genre",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
